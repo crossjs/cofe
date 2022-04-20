@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@types/react": "^17.0.43",
-    "@types/react-test-renderer": "^17.0.1",
+    "@types/react-test-renderer": "^18.0.0",
     "react-test-renderer": "^18.0.0"
   }
 }
