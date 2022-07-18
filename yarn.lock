@@ -2228,10 +2228,10 @@
     prop-types "^15.7.2"
     tslib "^2.1.0"
 
-"@rjsf/core@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@rjsf/core/-/core-4.1.0.tgz#43714518b339b26f9a2b11223625069642cb3397"
-  integrity sha512-rLtBJzqqFUUYx3c0bycqBYiQePug9keKrwISAd6bZ5xghHNgbXGI8rMtDbwpYoF4sQPiPCO+zlfpUOusK5vsVw==
+"@rjsf/core@^4.2.2":
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/@rjsf/core/-/core-4.2.2.tgz#cd8ee65f0c87cba05d7dd978282141ca97df003d"
+  integrity sha512-u82xqHKun3GdYWeLIWEewrkILpKJfnDY07lh0y/YytugnRaVugLYNJnj0RWhQq8BoJuWHv5J3HaPgCL8OkMfQw==
   dependencies:
     "@types/json-schema" "^7.0.7"
     ajv "^6.7.0"
@@ -2239,9 +2239,10 @@
     json-schema-merge-allof "^0.6.0"
     jsonpointer "^5.0.0"
     lodash "^4.17.15"
+    lodash-es "^4.17.15"
     nanoid "^3.1.23"
     prop-types "^15.7.2"
-    react-is "^16.9.0"
+    react-is "16.9.0"
 
 "@rushstack/eslint-patch@^1.0.8":
   version "1.1.0"
@@ -5911,7 +5912,7 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lodash-es@^4.17.21:
+lodash-es@^4.17.15, lodash-es@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
   integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
@@ -7130,12 +7131,17 @@ react-focus-lock@2.5.2:
     use-callback-ref "^1.2.5"
     use-sidecar "^1.0.5"
 
+react-is@16.9.0:
+  version "16.9.0"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.9.0.tgz#21ca9561399aad0ff1a7701c01683e8ca981edcb"
+  integrity sha512-tJBzzzIgnnRfEm046qRcURvwQnZVXmuCbscxUO5RWrGTXpon2d4c8mI0D8WE6ydVIm29JiLB6+RslkIvym9Rjw==
+
 "react-is@^16.12.0 || ^17.0.0", react-is@^17.0.1:
   version "17.0.2"
   resolved "https://registry.nlark.com/react-is/download/react-is-17.0.2.tgz?cache=0&sync_timestamp=1631290569177&other_urls=https%3A%2F%2Fregistry.nlark.com%2Freact-is%2Fdownload%2Freact-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha1-5pHUqOnHiTZWVVOas3J2Kw77VPA=
 
-react-is@^16.13.1, react-is@^16.7.0, react-is@^16.9.0:
+react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
   resolved "https://registry.nlark.com/react-is/download/react-is-16.13.1.tgz?cache=0&sync_timestamp=1631290569177&other_urls=https%3A%2F%2Fregistry.nlark.com%2Freact-is%2Fdownload%2Freact-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
